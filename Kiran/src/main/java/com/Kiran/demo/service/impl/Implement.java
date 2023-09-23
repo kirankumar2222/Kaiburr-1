@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import com.Kiran.demo.Repository.InfoRepository;
 import com.Kiran.demo.exception.ModelException;
+import com.Kiran.demo.exception.ModelNotFoundException;
 import com.Kiran.demo.model.Model;
 import com.Kiran.demo.service.Service;
 
@@ -42,7 +43,7 @@ public class Implement implements Service{
 	@Override
 	public Model getJobDetials(String id) {
 		if(infoRepository.findById(id).isEmpty())
-			throw new Exception("Requested name doesn't exists");
+			throw new ModelNotFoundException("Requested name doesn't exists");
 		return infoRepository.findById(id).get();
 	}
 
