@@ -32,8 +32,15 @@ The following API endpoints are available:
 * DELETE /api/items/{id}: Delete an item by ID.
 For detailed usage and request/response examples, refer to the API documentation at /docs when the application is running.
 
+# Operations Done
+* Create
+* Update
+* Delect
+* Post
+* Exception handling
+
 # Deployment 
 * Finally run the project by upping your server and your good to go!!!
 
 
-Fell free to reach!!!
+Feel free to reach!!!
