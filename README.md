@@ -35,7 +35,7 @@ For detailed usage and request/response examples, refer to the API documentation
 # Operations Done
 * Create
 * Update
-* Delect
+* Delete
 * Post
 * Exception handling
 
